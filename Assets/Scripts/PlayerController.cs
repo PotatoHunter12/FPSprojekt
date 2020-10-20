@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         //States
         bool isGrounded = Physics.Raycast(groundDetect.position, Vector3.down, 0.1f, ground);
         bool isJumping = jump && isGrounded;
-        bool isSprinting = sprint && t_vmove > 0;
+        bool isSprinting = sprint && t_vmove > 0 && !Input.GetMouseButton(1);
 
         //hedbob
         if (t_hmove == 0 && t_vmove == 0)
@@ -82,7 +82,7 @@ public class PlayerController : MonoBehaviour
         //States
         bool isGrounded = Physics.Raycast(groundDetect.position, Vector3.down,0.1f, ground);
         bool isJumping = jump && isGrounded;
-        bool isSprinting = sprint && t_vmove > 0;
+        bool isSprinting = sprint && t_vmove > 0 && !Input.GetMouseButton(1);
 
 
         //Movement

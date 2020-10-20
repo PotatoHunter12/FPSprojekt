@@ -7,16 +7,31 @@ public class Weapon : MonoBehaviour
 {
     public Gun[] loadout;
     public Transform weaponParent;
+    public Transform enemyParent;
     public GameObject bulletHole;
     public LayerMask shootable;
+    public LayerMask alive;
+    public GameObject enemy;
+    public Transform podn;
 
     private float curCD;
+    private float spawn_x;
+    private float spawn_z;
     private int gunIndex;
     private GameObject curWeapon;
 
     void Start()
     {
+        for (int i = 0; i < 4; i++)
+        {
+            spawn_x = podn.position.x + Random.Range(49, -49);
+            spawn_z = podn.position.z + Random.Range(49, -49);
 
+            Vector3 spawn = new Vector3(spawn_x, 0.1f, spawn_z);
+
+            Instantiate(enemy, spawn, Quaternion.identity,enemyParent);
+        }
+        
     }
 
     // Update is called once per frame
@@ -66,14 +81,32 @@ public class Weapon : MonoBehaviour
 
         //bloom
         Vector3 t_bloom = t_spawn.position + t_spawn.forward * 1000f;
-        t_bloom += Random.Range(-loadout[gunIndex].accuracy, loadout[gunIndex].accuracy) * t_spawn.up;
-        t_bloom += Random.Range(-loadout[gunIndex].accuracy, loadout[gunIndex].accuracy) * t_spawn.right;
-        t_bloom -= t_spawn.position;
-        t_bloom.Normalize();
+        if (!Input.GetMouseButton(1))
+        {
+            t_bloom += Random.Range(-loadout[gunIndex].accuracy, loadout[gunIndex].accuracy) * t_spawn.up;
+            t_bloom += Random.Range(-loadout[gunIndex].accuracy, loadout[gunIndex].accuracy) * t_spawn.right;
+            t_bloom -= t_spawn.position;
+            t_bloom.Normalize();
+        }
+        spawn_x = podn.position.x + Random.Range(49, -49);
+        spawn_z = podn.position.z + Random.Range(49, -49);
+
+        Vector3 spawn = new Vector3(spawn_x,0.1f,spawn_z);
+        
+
+        
+
+
 
         //raycast
         RaycastHit t_hit = new RaycastHit();
-        if(Physics.Raycast(t_spawn.position, t_bloom, out t_hit, 1000f, shootable))
+
+        if(Physics.Raycast(t_spawn.position, t_bloom, out t_hit, 1000f, alive))
+        {
+            Destroy(t_hit.transform.gameObject);
+            Instantiate(enemy, spawn, Quaternion.identity, enemyParent);
+        }
+        else if(Physics.Raycast(t_spawn.position, t_bloom, out t_hit, 1000f, shootable))
         {
             GameObject t_hole = Instantiate(bulletHole, t_hit.point + t_hit.normal * 0.001f,Quaternion.identity);
             t_hole.transform.LookAt(t_hit.point + t_hit.normal);
