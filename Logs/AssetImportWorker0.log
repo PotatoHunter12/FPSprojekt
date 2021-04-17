@@ -1,0 +1,662 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.3f1 (4bef613afd59) revision 4976481'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1500; Version 1909; 64bit' Language: 'en' Physical Memory: 32676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/WW/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49892
+Successfully changed project path to: C:/Users/WW/New Unity Project
+C:/Users/WW/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.3f1 (4bef613afd59)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/WW/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002132 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 22.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.205 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1590.
+Total: 1.929900 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.670200 ms  DeleteObjects: 0.053600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Guns/Guns/FBX
+  artifactKey: Guid(f51e39ac0b5bd0e4e8966b026322aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX using Guid(f51e39ac0b5bd0e4e8966b026322aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94525cd17ce3b1313b6625968cbc1a5') in 0.010430 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.8 MB.
+System memory in use after: 36.0 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1590.
+Total: 1.796200 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.597000 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.811004 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6826fc5251d2e208b5541b877dd71c5b') in 0.110783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 357.996277 seconds.
+  path: Assets/Guns/Guns/Blends
+  artifactKey: Guid(0ea9d136817bee240a6b7da2c7bde4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/Blends using Guid(0ea9d136817bee240a6b7da2c7bde4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921c25efa05a6a06ae2fbb1d3f129ee8') in 0.007163 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1601.
+Total: 2.208800 ms (FindLiveObjects: 0.232300 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.922500 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.439467 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/DarkerMetal.mat
+  artifactKey: Guid(5714f0ea36b2b4f4788862adf3dd059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/DarkerMetal.mat using Guid(5714f0ea36b2b4f4788862adf3dd059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349dd9cf1b717e4939974ae315a70117') in 0.071869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Magazine.mat
+  artifactKey: Guid(9ac110439e8d3624f81be38e28fa5a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Magazine.mat using Guid(9ac110439e8d3624f81be38e28fa5a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7b6a9ef8a9279ef261317ef48eba5d') in 0.013280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Material.003.mat
+  artifactKey: Guid(35a736b0333d7a24083e3224bb01ca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Material.003.mat using Guid(35a736b0333d7a24083e3224bb01ca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5980c4138b8bbd7571f9acfc138079') in 0.011662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Muzzle.mat
+  artifactKey: Guid(985d6f319ed2a1a41a062f14e86e7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Muzzle.mat using Guid(985d6f319ed2a1a41a062f14e86e7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d606db17c4809c6a4c1813bcc4e02f') in 0.011106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Metal.mat
+  artifactKey: Guid(0a31242e5d626e949a50085e86e169ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Metal.mat using Guid(0a31242e5d626e949a50085e86e169ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e00223ae40df70e2653346099f2f51b') in 0.011722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Wood.mat
+  artifactKey: Guid(9189858c7973f9948bddd305f1e01db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Wood.mat using Guid(9189858c7973f9948bddd305f1e01db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadd830b485aabf0f01f83841c664420') in 0.011923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1625.145692 seconds.
+  path: Assets/Design/Za perovška/una cebela k je prasica/FBX/unacebelakjeprasica.fbx
+  artifactKey: Guid(eeeb96d95342bad4a9822489f6b0252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Za perovška/una cebela k je prasica/FBX/unacebelakjeprasica.fbx using Guid(eeeb96d95342bad4a9822489f6b0252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9104e98c27c6e0c7a1bec4943e3d67f5') in 0.114136 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1641.
+Total: 2.126900 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.027700 ms MarkObjects: 1.921300 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1550.066769 seconds.
+  path: Assets/Guns
+  artifactKey: Guid(4820f52b675c288488148fb56534b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns using Guid(4820f52b675c288488148fb56534b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd218d7a2ede10fc425222cc09993c92') in 0.010411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.462377 seconds.
+  path: Assets/Guns/Guns/pistol-gui.jpg
+  artifactKey: Guid(cf6da1377adcf084eae8ddfa0e8497ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/pistol-gui.jpg using Guid(cf6da1377adcf084eae8ddfa0e8497ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cd4470da3b8436a2a51c305decc5d4') in 0.080139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.084706 seconds.
+  path: Assets/Guns/Guns/pistol-gui.png
+  artifactKey: Guid(b1fb52ac8ed680c47b59d171fab00c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/pistol-gui.png using Guid(b1fb52ac8ed680c47b59d171fab00c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6dc801400178803e593d65b9dc9ebd') in 0.015932 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 80.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 2.151300 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.028400 ms MarkObjects: 1.947200 ms  DeleteObjects: 0.013600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 568.320924 seconds.
+  path: Assets/Design/Za perovška/en zombi/Blends
+  artifactKey: Guid(80a506e27b94de6459599ccad74ffc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Za perovška/en zombi/Blends using Guid(80a506e27b94de6459599ccad74ffc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542fe7ced9675964bf216898f09dff29') in 0.009674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.039354 seconds.
+  path: Assets/Design/en zombi
+  artifactKey: Guid(86e019086dbb2af428a6fd4ff01fc98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/en zombi using Guid(86e019086dbb2af428a6fd4ff01fc98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9802ee3053233596c775b41cb9ae5bc1') in 0.007288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.698103 seconds.
+  path: Assets/Design/Zombie
+  artifactKey: Guid(86e019086dbb2af428a6fd4ff01fc98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Zombie using Guid(86e019086dbb2af428a6fd4ff01fc98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65e46213a56875014667570ca4c7fce') in 0.007359 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 2.249000 ms (FindLiveObjects: 0.169700 ms CreateObjectMapping: 0.028200 ms MarkObjects: 2.033600 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.590762 seconds.
+  path: Assets/Design/Zombie/FBX/ZombieTexture.png
+  artifactKey: Guid(28dad10441e6a744d9ab283eecd5dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Zombie/FBX/ZombieTexture.png using Guid(28dad10441e6a744d9ab283eecd5dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ec8a3422b1ebf307b7050a9e63e447') in 0.034654 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 1.996900 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.818000 ms  DeleteObjects: 0.015600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.969503 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4478b075863055a6f51944f10483eb51') in 0.049032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.515319 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179a3ef87ac6b61c99caca31e486b492') in 0.011157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.593497 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609d1a38004f10a4a6de0dd2a1ba722b') in 0.012720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.626391 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e84ec6bf86cc6f094227715592841d') in 0.010700 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 2.422700 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.032600 ms MarkObjects: 2.190600 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.159744 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b296e1b2a8510ab9c7def5aeba50765') in 0.051730 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.694600 ms (FindLiveObjects: 0.145900 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.508600 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.262259 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03f50b2b5b889600ccdb7253400d5ed') in 0.047193 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 2.250400 ms (FindLiveObjects: 0.329100 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.861300 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.927529 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ef87b17e3986ee88c54161ce07ee74') in 0.048472 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 1.786500 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.026800 ms MarkObjects: 1.613600 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.223850 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a5a790d121dc3e1f6804f0f9bf69cc') in 0.049056 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000709 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 2.052100 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.849600 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.608321 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8207569ab99390da6baf0ebab5588f') in 0.045946 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1721.
+Total: 2.181500 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.978200 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.706891 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a20f0acf7ba3ee22ab3ae7bcfb742d5') in 0.050611 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.680 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1725.
+Total: 1.747100 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.028800 ms MarkObjects: 1.530600 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.479814 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd26d43be2d033679ca5e54c34fe7e8') in 0.045150 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.681200 ms (FindLiveObjects: 0.150500 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.492500 ms  DeleteObjects: 0.009400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 563.414985 seconds.
+  path: Assets/Design/Guns/shotgun-gui.png
+  artifactKey: Guid(9eeeb6b701ef1b64c9930785e4a58ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/shotgun-gui.png using Guid(9eeeb6b701ef1b64c9930785e4a58ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16045addec02ca93680ed4eff5f3963f') in 0.037624 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000591 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1747.
+Total: 2.158500 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.842300 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2220.558308 seconds.
+  path: Assets/Design/Guns/p90-gui.png
+  artifactKey: Guid(0dc9b9545eb1e9649a79d953ab3bf163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/p90-gui.png using Guid(0dc9b9545eb1e9649a79d953ab3bf163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917dbf9e44b8e195c41742561fbe95d6') in 0.043390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Design/Guns/sword-gui.png
+  artifactKey: Guid(398d407dfe347ae458440a53d2ef74ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/sword-gui.png using Guid(398d407dfe347ae458440a53d2ef74ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e3d307c753be4046d7391fa5a42b33') in 0.015981 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1780.
+Total: 1.710800 ms (FindLiveObjects: 0.164400 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.502900 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 969.732751 seconds.
+  path: Assets/Design/Guns/PNG
+  artifactKey: Guid(4edcea70957c9e34ba72ca9cd930c5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/PNG using Guid(4edcea70957c9e34ba72ca9cd930c5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3050a936553eb47d0b34d242dbd68b9a') in 0.009830 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1783.
+Total: 3.257800 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.033300 ms MarkObjects: 2.974000 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 655.933370 seconds.
+  path: Assets/Design/Player
+  artifactKey: Guid(ff42efe95b633e243b2bd38392f497e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Player using Guid(ff42efe95b633e243b2bd38392f497e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060b6e48f52795140de18dae7bb2699f') in 0.010201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.985300 seconds.
+  path: Assets/Design/Prefab
+  artifactKey: Guid(a300fc4d6c3f2824e8fda3fb442a9d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Prefab using Guid(a300fc4d6c3f2824e8fda3fb442a9d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca35f8745cb2e1129e46f9476a3f02d') in 0.007441 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1786.
+Total: 2.164300 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.932700 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.133437 seconds.
+  path: Assets/Materials/Zombie.mat
+  artifactKey: Guid(b20d95544fc7a98468f808b0ff5d5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zombie.mat using Guid(b20d95544fc7a98468f808b0ff5d5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeae18443faf3c1da3f87864cd9f2ae') in 0.049743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Materials/Player.mat
+  artifactKey: Guid(c674e0edc4379324a8156b456847ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player.mat using Guid(c674e0edc4379324a8156b456847ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0792402feb10a48537473dad5785fe85') in 0.011183 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1790.
+Total: 1.732200 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.535900 ms  DeleteObjects: 0.009400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.805997 seconds.
+  path: Assets/Materials/Zombie.mat
+  artifactKey: Guid(b20d95544fc7a98468f808b0ff5d5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zombie.mat using Guid(b20d95544fc7a98468f808b0ff5d5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6157b55ea0e12af0d963986d76cb1c0a') in 0.050891 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.3f1 (4bef613afd59) revision 4976481'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 32676 MB
+OS: 'Windows 10 Pro; OS build 18363.1500; Version 1909; 64bit' Language: 'en' Physical Memory: 32676 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/WW/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54097
+53416
 Successfully changed project path to: C:/Users/WW/New Unity Project
 C:/Users/WW/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1 (4bef613afd59)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,450 +35,478 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001776 seconds.
+Registered in 0.001946 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
+- Completed reload, in  1.051 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001204 seconds.
+Registered in 0.000713 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.748 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.6 MB.
 System memory in use after: 58.6 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1590.
-Total: 2.457400 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.029900 ms MarkObjects: 2.172100 ms  DeleteObjects: 0.081600 ms)
+Total: 2.070100 ms (FindLiveObjects: 0.128100 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.861300 ms  DeleteObjects: 0.053000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Design/Za perovška/en zombi/FBX/zombi.fbx
-  artifactKey: Guid(a2cf212c5554c6e45bbf882bed5cd5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Za perovška/en zombi/FBX/zombi.fbx using Guid(a2cf212c5554c6e45bbf882bed5cd5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd99f8031632d2f4a7b1f990fdfbdce') in 0.327542 seconds 
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(b20d95544fc7a98468f808b0ff5d5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(b20d95544fc7a98468f808b0ff5d5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb41aba0a257de49cafaf9586166635d') in 0.110961 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 459.723586 seconds.
-  path: Assets/Design/Bullet Hole.prefab
-  artifactKey: Guid(071f71bf5cf955541905d658e30af691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Bullet Hole.prefab using Guid(071f71bf5cf955541905d658e30af691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0628a61d7a465793d38506923fbdaa41') in 0.088139 seconds 
+  Time since last request: 1030.664446 seconds.
+  path: Assets/Design/Guns/Guns/FBX/P90.fbx
+  artifactKey: Guid(ac64d94b3e71e544288615dfa944b7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/FBX/P90.fbx using Guid(ac64d94b3e71e544288615dfa944b7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd786fdd7c79792879cebc8c8f4a2579b') in 0.101267 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Design/bullethole.png
-  artifactKey: Guid(bdd3f78fc6eb6e546a3c5597dea9307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/bullethole.png using Guid(bdd3f78fc6eb6e546a3c5597dea9307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5261290cd696be063a766089c3fc633') in 0.045261 seconds 
+  Time since last request: 0.000180 seconds.
+  path: Assets/Design/Guns/Guns/FBX/Revolver.fbx
+  artifactKey: Guid(cf8de610189ebe44fb812ad0c0a4b409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/FBX/Revolver.fbx using Guid(cf8de610189ebe44fb812ad0c0a4b409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd28eb7637c3736e0f23262107ce2548') in 0.034548 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Design/Gun.prefab
-  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8117a27170f742dc314d6f81c0594d4b') in 0.012170 seconds 
+  Time since last request: 0.000191 seconds.
+  path: Assets/Design/Guns/Guns/FBX/Shotgun.fbx
+  artifactKey: Guid(c1da6e53e0601cb4a8a39b39d38a9189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/FBX/Shotgun.fbx using Guid(c1da6e53e0601cb4a8a39b39d38a9189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7901e20183e1305a561397e774141ab5') in 0.040357 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b88931e4296ecdb782368c38f13b48d') in 0.024664 seconds 
+  Time since last request: 0.000159 seconds.
+  path: Assets/Design/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e739e56c9532673a450a4fa0f7a63463') in 0.034671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Design/Guns/Guns/FBX/Rifle.fbx
+  artifactKey: Guid(a977d99230ca1be43b448fa43dd0e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/FBX/Rifle.fbx using Guid(a977d99230ca1be43b448fa43dd0e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e835c61c5df40137968c6903c09eef1') in 0.041611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Design/Guns/Guns/FBX/SniperRifle.fbx
+  artifactKey: Guid(6977e8a9da5333e40ae9a55e260fb33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/FBX/SniperRifle.fbx using Guid(6977e8a9da5333e40ae9a55e260fb33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1deaf2d03bbef81efde59b928b1cec52') in 0.041887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.077556 seconds.
+  path: Assets/Design/Guns/Guns
+  artifactKey: Guid(0195f5c322247fc439bda696b79c627f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns using Guid(0195f5c322247fc439bda696b79c627f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d135bc07ec6fee9cd8142652ad7d35') in 0.006537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.577961 seconds.
+  path: Assets/Design/Guns/Guns/OBJ/P90.obj
+  artifactKey: Guid(147857f882a8e114790c15bb2b6abbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/OBJ/P90.obj using Guid(147857f882a8e114790c15bb2b6abbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2968b216bc71f4a32d33bbdef09cb544') in 0.026447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Design/Guns/Guns/OBJ/Rifle.obj
+  artifactKey: Guid(d62df23a6ac46464ab2888d03a142ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/OBJ/Rifle.obj using Guid(d62df23a6ac46464ab2888d03a142ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e781a58f5a97235b4427c662b2e2fc') in 0.038870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Design/Guns/Guns/OBJ/Pistol.obj
+  artifactKey: Guid(a492fad0b774b9548a5e1af574523cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/OBJ/Pistol.obj using Guid(a492fad0b774b9548a5e1af574523cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb9dde89f4de1747baaaccdaac5f82a') in 0.035609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Design/Guns/Guns/OBJ/Shotgun.obj
+  artifactKey: Guid(4c1f8406f0502b6489a225282feef066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/OBJ/Shotgun.obj using Guid(4c1f8406f0502b6489a225282feef066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f8a1f54bd38e699b751b05699cef6') in 0.037087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Design/Guns/Guns/OBJ/SniperRifle.obj
+  artifactKey: Guid(ef229ad97e03d4e43beb1bf73cd2cfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/OBJ/SniperRifle.obj using Guid(ef229ad97e03d4e43beb1bf73cd2cfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79f45f85c53d20661a79fd334e94932') in 0.042830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Design/Guns/Guns/OBJ/Revolver.obj
+  artifactKey: Guid(bfda2f2f711e89949a4dcf994920dde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/OBJ/Revolver.obj using Guid(bfda2f2f711e89949a4dcf994920dde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7656fea7e0a954ef6d0a83031c5f35f5') in 0.032297 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000681 seconds.
+Registered in 0.001032 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
+- Completed reload, in  0.711 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.8 MB.
-System memory in use after: 76.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1625.
-Total: 2.110900 ms (FindLiveObjects: 0.135600 ms CreateObjectMapping: 0.026500 ms MarkObjects: 1.932200 ms  DeleteObjects: 0.015500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.895173 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f118533b423675fbc55669e95a0336') in 0.057274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.986864 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0583d1066e86a7f201f085717ff9f2ba') in 0.016815 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000748 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.7 MB.
-System memory in use after: 76.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1629.
-Total: 1.722200 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.516500 ms  DeleteObjects: 0.010800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.406534 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6b3e22a93b038515d718f1028b2885') in 0.056194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.915193 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bc947f36669a0df4bd2be984b8878d') in 0.016024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.140282 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a8715b86450d2591be4859f0ad00b3') in 0.018296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.965326 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb13e29a78b1c3c01ec466ceba87232') in 0.014969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.807465 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca731a3ca60bc0bdaa9afd758ce471b6') in 0.017616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.888607 seconds.
-  path: Assets/Design/Za perovška/clovecek 1/FBX/clovecek.fbx
-  artifactKey: Guid(2688237199f310f4492857a8b15e5823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Za perovška/clovecek 1/FBX/clovecek.fbx using Guid(2688237199f310f4492857a8b15e5823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d77e75622e409059b411bcca25e963') in 0.040948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 87.073943 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1fab7b28ed854897db180164a94667') in 0.015071 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000710 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.8 MB.
-System memory in use after: 76.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 1.631300 ms (FindLiveObjects: 0.145200 ms CreateObjectMapping: 0.027200 ms MarkObjects: 1.447900 ms  DeleteObjects: 0.010200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.702348 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572b08c25ebbd9a7503c47d05f3da9b5') in 0.055123 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000688 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.695 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.8 MB.
-System memory in use after: 76.9 MB.
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
 
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1637.
-Total: 1.821600 ms (FindLiveObjects: 0.179700 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.583500 ms  DeleteObjects: 0.027200 ms)
+Total: 1.676500 ms (FindLiveObjects: 0.150400 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.488900 ms  DeleteObjects: 0.010000 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 16.115968 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940a62d627e6c6f303f55cd93c187e05') in 0.053313 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000694 seconds.
+Registered in 0.000645 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.770 seconds
+- Completed reload, in  0.737 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.8 MB.
-System memory in use after: 76.9 MB.
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1641.
-Total: 2.697200 ms (FindLiveObjects: 0.285100 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.346900 ms  DeleteObjects: 0.012600 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1640.
+Total: 2.643700 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.031200 ms MarkObjects: 2.420200 ms  DeleteObjects: 0.015200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.479767 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c802ca5b0461de97edeecd63c4359292') in 0.058151 seconds 
+  Time since last request: 120.925878 seconds.
+  path: Assets/Design/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e6d9fb7c7aa1f6010e59a23e9ae26e') in 0.123302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.878340 seconds.
+  path: Assets/Design/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748b386a6a9b936f42b716b41007b227') in 0.043296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.526135 seconds.
+  path: Assets/Scripts/Weapon.cs
+  artifactKey: Guid(6dac85bdf05aff14cbf4899dae98744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapon.cs using Guid(6dac85bdf05aff14cbf4899dae98744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4544c967f7de08f9b9af4de9520be2') in 0.016842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 266.094919 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1c75c0358761fec0d2ea9c537128f4') in 0.017125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.608681 seconds.
+  path: Assets/Design/Guns/Guns/OBJ/Pistol.mtl
+  artifactKey: Guid(0807b7ed3c4d88a4a8e570492d61c149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/OBJ/Pistol.mtl using Guid(0807b7ed3c4d88a4a8e570492d61c149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761742e502e45abe5db6480c1abe7302') in 0.006228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.929736 seconds.
+  path: Assets/Design/Guns/Guns/OBJ/P90.mtl
+  artifactKey: Guid(993a56c54f024fe48b311bb832b353b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Guns/Guns/OBJ/P90.mtl using Guid(993a56c54f024fe48b311bb832b353b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00176ed30fbbef7f7f141c1711dcc6ad') in 0.003315 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.4 MB.
+System memory in use after: 76.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1644.
+Total: 1.781000 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.567000 ms  DeleteObjects: 0.011400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.5 MB.
+System memory in use after: 76.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1647.
+Total: 1.765600 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.568600 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 290.585801 seconds.
+  path: Assets/Guns/Guns/OBJ
+  artifactKey: Guid(cf8d5cab7043dd2458c622ab1f88ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/OBJ using Guid(cf8d5cab7043dd2458c622ab1f88ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4c2c9038c83a87982cda82fd243ddc') in 0.009484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.505680 seconds.
+  path: Assets/Guns/Guns/OBJ/New Material.mat
+  artifactKey: Guid(3b3b18dec451d31469fbed2e30313d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/OBJ/New Material.mat using Guid(3b3b18dec451d31469fbed2e30313d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139614b924798f7f89250fa9c7ce3e29') in 0.052532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.060517 seconds.
+  path: Assets/Design/Za perovška/en zombi/Blends/ZombieTexture.png
+  artifactKey: Guid(3bd4c3a55850c1a4d8321a8f17399c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Za perovška/en zombi/Blends/ZombieTexture.png using Guid(3bd4c3a55850c1a4d8321a8f17399c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8faa0b9cd2a620c3172d6aa75e89c6') in 0.033667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.291017 seconds.
+  path: Assets/Design/Gun.prefab
+  artifactKey: Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Gun.prefab using Guid(6903be2915ed83c4aa5d4a50f9056f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2c69a0c4feb53329c7d51f4d13b9a0') in 0.020409 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.000695 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.8 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1645.
-Total: 1.586000 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.025900 ms MarkObjects: 1.409200 ms  DeleteObjects: 0.009100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000594 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1648.
-Total: 2.357000 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.031900 ms MarkObjects: 2.079900 ms  DeleteObjects: 0.019300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000970 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1651.
-Total: 1.798100 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.027100 ms MarkObjects: 1.530100 ms  DeleteObjects: 0.012100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1624.200100 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3085fbe6316f3c07f77d42543bae84e') in 0.065443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.035937 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861d2a2859d66a77fdc6b5b5d8b01d99') in 0.017224 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000851 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.749 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1655.
-Total: 2.936100 ms (FindLiveObjects: 0.162900 ms CreateObjectMapping: 0.034800 ms MarkObjects: 2.718000 ms  DeleteObjects: 0.019000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.290429 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde77ae06bf028d3966b919249d46846') in 0.052794 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000709 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1659.
-Total: 2.853800 ms (FindLiveObjects: 0.391200 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.393400 ms  DeleteObjects: 0.018300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 180.448903 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df1ca9b873a27de311b334d493bd180') in 0.057888 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000755 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1663.
-Total: 2.459900 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.039600 ms MarkObjects: 2.150000 ms  DeleteObjects: 0.015800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.617348 seconds.
-  path: Assets/Design/Milan.prefab
-  artifactKey: Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Design/Milan.prefab using Guid(041a69b740beff24cbcff0741a2d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946288f423a3ef02ad421e36108e47fc') in 0.057457 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000626 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.708 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1667.
-Total: 1.663300 ms (FindLiveObjects: 0.155400 ms CreateObjectMapping: 0.027300 ms MarkObjects: 1.470900 ms  DeleteObjects: 0.009000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.941720 seconds.
-  path: Assets/Objects/Pistol.asset
-  artifactKey: Guid(b7496024aeae54843887654016ed4541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Pistol.asset using Guid(b7496024aeae54843887654016ed4541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e900fc1ebda6e166c731d8252bc056cd') in 0.017216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Objects/Shotgun.asset
-  artifactKey: Guid(42113c8159e922a489c9ca282de46053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Shotgun.asset using Guid(42113c8159e922a489c9ca282de46053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dd24a61b22c2e6d6c935adcfd28cfe') in 0.006223 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000614 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.698 seconds
+- Completed reload, in  0.805 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 1.670900 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.027100 ms MarkObjects: 1.496300 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000954 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1670.
-Total: 2.501400 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.036700 ms MarkObjects: 2.215000 ms  DeleteObjects: 0.016500 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 2.114000 ms (FindLiveObjects: 0.195300 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.869500 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1674.
+Total: 2.264700 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.028000 ms MarkObjects: 2.028400 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 2.097300 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.820800 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 2.273600 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.030500 ms MarkObjects: 2.021400 ms  DeleteObjects: 0.020500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 103.425433 seconds.
-  path: Assets/Objects/Shotgun.asset
-  artifactKey: Guid(42113c8159e922a489c9ca282de46053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Shotgun.asset using Guid(42113c8159e922a489c9ca282de46053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417b2db81961af097d33759b6afc94d4') in 0.013634 seconds 
+  Time since last request: 671.851114 seconds.
+  path: Assets/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3ee2574a80e144ca034a7511a1cf2b') in 0.091297 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Objects/Pistol.asset
-  artifactKey: Guid(b7496024aeae54843887654016ed4541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Pistol.asset using Guid(b7496024aeae54843887654016ed4541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02cfc5c714798b9273d8be4195c494c') in 0.003049 seconds 
+  Time since last request: 8.732772 seconds.
+  path: Assets/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503b8a22b27ebaacadd662f7f09582f1') in 0.054085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.318125 seconds.
+  path: Assets/Guns/Guns/FBX/DarkerMetal.mat
+  artifactKey: Guid(1190ba7e9f672a949871e7637a4a6623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/DarkerMetal.mat using Guid(1190ba7e9f672a949871e7637a4a6623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191960a142b9781d4d9fb52e1f3010e3') in 0.014782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Guns/Guns/FBX/Material.003.mat
+  artifactKey: Guid(5a36dffa834e6f14ba0b2bb008cadec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Material.003.mat using Guid(5a36dffa834e6f14ba0b2bb008cadec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f7c099ebec7ef363617fcbcfbd522f') in 0.014355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Guns/Guns/FBX/Muzzle.mat
+  artifactKey: Guid(cb49ff93e96a1e341a99994f48bc7f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Muzzle.mat using Guid(cb49ff93e96a1e341a99994f48bc7f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9be5b66eb900be4ef32c00fc31339b') in 0.016043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d805c077edefe83655a85b825bf4e6') in 0.024719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Guns/Guns/FBX/Wood.mat
+  artifactKey: Guid(29a24311317560741b10b51b5031fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Wood.mat using Guid(29a24311317560741b10b51b5031fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fad6dd2397aec0529d27d1e8d05ad4') in 0.014160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Guns/Guns/FBX/Magazine.mat
+  artifactKey: Guid(0f7587636e25a4c41adbb782c0359d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Magazine.mat using Guid(0f7587636e25a4c41adbb782c0359d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef409f8b4a3d841b67b39805ca90304') in 0.012401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Guns/Guns/FBX/Metal.mat
+  artifactKey: Guid(43ec07c7fede1684ea9f076226219e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Metal.mat using Guid(43ec07c7fede1684ea9f076226219e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6061b6289447b4835ccdbd9af74f2c81') in 0.013671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.420114 seconds.
+  path: Assets/Design/Za perovška/jeznavrv/FBX/jeznavrv.fbx
+  artifactKey: Guid(c251bb17c6d31a74da602b2db0b5591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Za perovška/jeznavrv/FBX/jeznavrv.fbx using Guid(c251bb17c6d31a74da602b2db0b5591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf3ea3ec0551e75beec3601ac5667fb') in 0.059753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.411112 seconds.
+  path: Assets/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167d4b31d41e8e4a722702294447b1b4') in 0.020707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.072735 seconds.
+  path: Assets/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac57f532f8401b973a3e1f21f3f600f6') in 0.024755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.483590 seconds.
+  path: Assets/Guns/Guns/FBX/Pistol.fbx
+  artifactKey: Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Pistol.fbx using Guid(0f18fc9c7c9a15347b34a1562128ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeeeb59d05e0c7f2f8eadc13e6f1f56') in 0.022939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.016813 seconds.
+  path: Assets/Guns/Guns/FBX/Materials
+  artifactKey: Guid(b0dbb3742a70c1a4d820d08a2e7f261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials using Guid(b0dbb3742a70c1a4d820d08a2e7f261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84621327e53c122824cc71b6a98476e2') in 0.009185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062711 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/DarkerMetal.mat
+  artifactKey: Guid(5714f0ea36b2b4f4788862adf3dd059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/DarkerMetal.mat using Guid(5714f0ea36b2b4f4788862adf3dd059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19146902f79b8651512c63b2331568b') in 0.011847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Magazine.mat
+  artifactKey: Guid(9ac110439e8d3624f81be38e28fa5a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Magazine.mat using Guid(9ac110439e8d3624f81be38e28fa5a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017aa96796243e4e5d7b24201e5a1ef6') in 0.007159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Material.003.mat
+  artifactKey: Guid(35a736b0333d7a24083e3224bb01ca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Material.003.mat using Guid(35a736b0333d7a24083e3224bb01ca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa4957a8b8960a2d005a0046b299f1a') in 0.007388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Muzzle.mat
+  artifactKey: Guid(985d6f319ed2a1a41a062f14e86e7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Muzzle.mat using Guid(985d6f319ed2a1a41a062f14e86e7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce61fdfd81dba9bc7155a7d11138cf26') in 0.006799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Metal.mat
+  artifactKey: Guid(0a31242e5d626e949a50085e86e169ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Metal.mat using Guid(0a31242e5d626e949a50085e86e169ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5139c6db1f6135c3f501321cffcf5a') in 0.008254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Guns/Guns/FBX/Materials/Wood.mat
+  artifactKey: Guid(9189858c7973f9948bddd305f1e01db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/FBX/Materials/Wood.mat using Guid(9189858c7973f9948bddd305f1e01db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3024bb51a5d6a78452f6a92e69ccc6d3') in 0.006956 seconds 
