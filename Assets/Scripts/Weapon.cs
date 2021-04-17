@@ -19,10 +19,12 @@ public class Weapon : MonoBehaviour
     private float spawn_z;
     private int gunIndex;
     private GameObject curWeapon;
+    private GameObject nmeHit;
+    private float damage;
 
     void Start()
     {
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 100; i++)
         {
             spawn_x = podn.position.x + Random.Range(49, -49);
             spawn_z = podn.position.z + Random.Range(49, -49);
@@ -37,7 +39,10 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Alpha1)) Equip(0);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) Equip(1);
+        //if (Input.GetKeyDown(KeyCode.Alpha3)) Equip(2);
         if (curWeapon != null)
         {
             Aim(Input.GetMouseButton(1));
@@ -60,7 +65,7 @@ public class Weapon : MonoBehaviour
         t_newEquip.transform.localEulerAngles = Vector3.zero;
 
         curWeapon = t_newEquip;
-
+        damage = loadout[i].damage;
     }
 
     void Aim(bool aim)
@@ -91,20 +96,21 @@ public class Weapon : MonoBehaviour
         spawn_x = podn.position.x + Random.Range(49, -49);
         spawn_z = podn.position.z + Random.Range(49, -49);
 
-        Vector3 spawn = new Vector3(spawn_x,0.1f,spawn_z);
-        
-
-        
-
-
+        Vector3 spawn = new Vector3(spawn_x, 0.1f, spawn_z);
 
         //raycast
         RaycastHit t_hit = new RaycastHit();
 
-        if(Physics.Raycast(t_spawn.position, t_bloom, out t_hit, 1000f, alive))
+        if (Physics.Raycast(t_spawn.position, t_bloom, out t_hit, 1000f, alive))
         {
-            Destroy(t_hit.transform.gameObject);
-            Instantiate(enemy, spawn, Quaternion.identity, enemyParent);
+            nmeHit = t_hit.transform.gameObject;
+            nmeHit.GetComponent<EnemyAI>().health -= (int)damage;
+            if (nmeHit.GetComponent<EnemyAI>().health <= 0)
+            {
+                Destroy(nmeHit,0.5f);
+
+                Instantiate(enemy, spawn, Quaternion.identity, enemyParent);
+            }
         }
         else if(Physics.Raycast(t_spawn.position, t_bloom, out t_hit, 1000f, shootable))
         {

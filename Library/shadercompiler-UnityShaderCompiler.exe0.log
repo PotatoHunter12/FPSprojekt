@@ -1,4 +1,4 @@
-Base path: 'C:/Program Files/Unity/Hub/Editor/2020.2.0b2/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.2.0b2/Editor/Data/PlaybackEngines'
+Base path: 'C:/Program Files/Unity/Hub/Editor/2020.2.0b14/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.2.0b14/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
 

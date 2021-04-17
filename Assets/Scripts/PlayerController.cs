@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -13,19 +15,16 @@ public class PlayerController : MonoBehaviour
         public Transform groundDetect;
         public Transform weaponParent;
         public LayerMask ground;
+        public Animator uok;
         private Rigidbody rig;
         private Vector3 parentOrigin;
         private Vector3 bobPos;
 
         private float moveCounter;
         private float idleCounter;
-
-        private float baseFov;
-        private float sprintFovModifier = 1.5f;
     #endregion
     void Start()
     {
-        baseFov = normalCam.fieldOfView;
         Camera.main.enabled = false;
         rig = GetComponent<Rigidbody>();
         parentOrigin = weaponParent.localPosition;
@@ -37,6 +36,8 @@ public class PlayerController : MonoBehaviour
         float t_hmove = Input.GetAxis("Horizontal");
         float t_vmove = Input.GetAxis("Vertical");
 
+        
+
         //Contorls
         bool sprint = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         bool jump = Input.GetKey(KeyCode.Space);
@@ -46,6 +47,9 @@ public class PlayerController : MonoBehaviour
         bool isJumping = jump && isGrounded;
         bool isSprinting = sprint && t_vmove > 0 && !Input.GetMouseButton(1);
 
+        //Animation
+        uok.SetFloat("vertical", t_vmove + Convert.ToInt32(isSprinting));
+        uok.SetFloat("horizontal", t_hmove);
         //hedbob
         if (t_hmove == 0 && t_vmove == 0)
         {
@@ -98,9 +102,6 @@ public class PlayerController : MonoBehaviour
         t_targetVelocity.y = rig.velocity.y;
         rig.velocity = t_targetVelocity;
 
-
-        //fov
-        normalCam.fieldOfView = isSprinting ? Mathf.Lerp(normalCam.fieldOfView, baseFov * sprintFovModifier, Time.deltaTime * 8f) : Mathf.Lerp(normalCam.fieldOfView, baseFov, Time.deltaTime * 8f);
     }
 
     void Headbob(float z,float x_intens,float y_intens)

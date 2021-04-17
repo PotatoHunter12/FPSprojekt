@@ -44,3 +44,25 @@ The following packages were added:
   com.unity.textmeshpro@3.0.1
   com.unity.timeline@1.4.2
   com.unity.ugui@1.0.0
+
+=== Thu Dec 10 21:18:59 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.visualstudio from version 2.0.2 to 2.0.5
+  com.unity.ide.vscode from version 1.2.1 to 1.2.3
+  com.unity.test-framework from version 1.1.16 to 1.1.19
+
+=== Wed Apr 14 18:40:45 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 2.0.7 to 3.0.5
+  com.unity.ide.visualstudio from version 2.0.5 to 2.0.7
+  com.unity.test-framework from version 1.1.19 to 1.1.24
+  com.unity.textmeshpro from version 3.0.1 to 3.0.4
+  com.unity.timeline from version 1.4.2 to 1.5.4

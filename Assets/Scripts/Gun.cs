@@ -12,5 +12,6 @@ public class Gun : ScriptableObject
     public float recoil;
     public float kickback;
     public float aimSpeed;
+    public float damage;
     public GameObject prefab;
 }
