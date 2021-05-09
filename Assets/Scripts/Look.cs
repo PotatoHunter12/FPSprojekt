@@ -11,6 +11,7 @@ public class Look : MonoBehaviour
     public Transform player;
     public Transform cams;
     public Transform weapon;
+    public Transform light;
 
     public float xSensitivity;
     public float ySensitivity;
@@ -44,6 +45,7 @@ public class Look : MonoBehaviour
             cams.localRotation = t_delta;
         }
         weapon.rotation = cams.rotation;
+        light.rotation = cams.rotation;
     }
 
     void SetX()

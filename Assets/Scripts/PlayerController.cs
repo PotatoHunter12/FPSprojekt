@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
         public float sprintModifier;
         public float jumpForce;
 
-        public Camera normalCam;
+        //public Camera normalCam;
         public Transform groundDetect;
         public Transform weaponParent;
         public LayerMask ground;
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
     #endregion
     void Start()
     {
-        Camera.main.enabled = false;
         rig = GetComponent<Rigidbody>();
         parentOrigin = weaponParent.localPosition;
     }
@@ -44,13 +43,13 @@ public class PlayerController : MonoBehaviour
 
         //States
         bool isGrounded = Physics.Raycast(groundDetect.position, Vector3.down, 0.1f, ground);
-        bool isJumping = jump && isGrounded;
         bool isSprinting = sprint && t_vmove > 0 && !Input.GetMouseButton(1);
 
         //Animation
         uok.SetFloat("vertical", t_vmove + Convert.ToInt32(isSprinting));
         uok.SetFloat("horizontal", t_hmove);
-        //hedbob
+
+        //headbob
         if (t_hmove == 0 && t_vmove == 0)
         {
             Headbob(idleCounter, 0.025f, 0.025f);
@@ -78,26 +77,29 @@ public class PlayerController : MonoBehaviour
         float t_vmove = Input.GetAxis("Vertical");
 
 
-        //Contorls
+        ////Contorls
         bool sprint = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         bool jump = Input.GetKey(KeyCode.Space);
 
 
-        //States
-        bool isGrounded = Physics.Raycast(groundDetect.position, Vector3.down,0.1f, ground);
+        ////States
+        bool isGrounded = Physics.Raycast(groundDetect.position, Vector3.down, 0.1f, ground);
         bool isJumping = jump && isGrounded;
         bool isSprinting = sprint && t_vmove > 0 && !Input.GetMouseButton(1);
 
 
         //Movement
-        if (isJumping) rig.AddForce(Vector3.up * jumpForce);
 
+
+        if (isJumping) rig.AddForce(Vector3.up * jumpForce);
+        
         Vector3 t_direction = new Vector3(t_hmove, 0, t_vmove);
         t_direction.Normalize();
         
         float t_adjust = speed;
         if (isSprinting) t_adjust *= sprintModifier;
 
+        
         Vector3 t_targetVelocity = transform.TransformDirection(t_direction) * t_adjust * Time.deltaTime;
         t_targetVelocity.y = rig.velocity.y;
         rig.velocity = t_targetVelocity;

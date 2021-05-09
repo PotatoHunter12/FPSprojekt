@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Animations;
 
 public class Weapon : MonoBehaviour
@@ -13,6 +14,7 @@ public class Weapon : MonoBehaviour
     public LayerMask alive;
     public GameObject enemy;
     public Transform podn;
+    public GameObject pts;
 
     private float curCD;
     private float spawn_x;
@@ -20,14 +22,15 @@ public class Weapon : MonoBehaviour
     private int gunIndex;
     private GameObject curWeapon;
     private GameObject nmeHit;
+    private int points;
     private float damage;
 
     void Start()
     {
         for (int i = 0; i < 100; i++)
         {
-            spawn_x = podn.position.x + Random.Range(49, -49);
-            spawn_z = podn.position.z + Random.Range(49, -49);
+            spawn_x = podn.position.x + Random.Range(1, 249);
+            spawn_z = podn.position.z + Random.Range(1, 249);
 
             Vector3 spawn = new Vector3(spawn_x, 0.1f, spawn_z);
 
@@ -93,8 +96,8 @@ public class Weapon : MonoBehaviour
             t_bloom -= t_spawn.position;
             t_bloom.Normalize();
         }
-        spawn_x = podn.position.x + Random.Range(49, -49);
-        spawn_z = podn.position.z + Random.Range(49, -49);
+        spawn_x = podn.position.x + Random.Range(1, 249);
+        spawn_z = podn.position.z + Random.Range(1, 249);
 
         Vector3 spawn = new Vector3(spawn_x, 0.1f, spawn_z);
 
@@ -108,7 +111,8 @@ public class Weapon : MonoBehaviour
             if (nmeHit.GetComponent<EnemyAI>().health <= 0)
             {
                 Destroy(nmeHit,0.5f);
-
+                points += 1;
+                pts.GetComponent<Text>().text = "Points: " + points;
                 Instantiate(enemy, spawn, Quaternion.identity, enemyParent);
             }
         }
